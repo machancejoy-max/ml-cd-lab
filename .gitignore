@@ -1,6 +1,5 @@
-# Ignore large model files
 webapp/model_full/
-webapp/tokenizer/tokenizer.json
+webapp/tokenizer/
 *.safetensors
 *.pt
 *.bin
