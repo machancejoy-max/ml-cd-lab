@@ -1,13 +1,7 @@
-# Ignore VS Code settings and extensions
-.vscode/
-
-# Python cache
-__pycache__/
-*.pyc
-
-# Virtual environments
-venv/
-.env/
-
-# Docker logs
-*.log
+# Ignore large model files
+webapp/model_full/
+webapp/tokenizer/tokenizer.json
+*.safetensors
+*.pt
+*.bin
+*.onnx
